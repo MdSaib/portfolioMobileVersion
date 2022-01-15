@@ -432,3 +432,9 @@ button:active {
   background-color: #2230d2;
   color: #fff;
 }
+
+.client {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+}
