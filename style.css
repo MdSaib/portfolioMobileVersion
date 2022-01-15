@@ -127,7 +127,8 @@ nav {
   grid-template-rows: 25% 25% 25% 25%;
   grid-row-gap: 1px;
 }
-.work1{
+
+.work1 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
@@ -151,16 +152,16 @@ nav {
   position: static;
   width: 100%;
   height: 552px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px / 2);
   top: 114px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 88px 0px;
+  margin: 88px 1px;
 }
 
 .portfolioA {
@@ -173,33 +174,30 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .projectTitle {
   position: static;
   width: 295px;
   height: 36px;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 1px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .responsibility {
   justify-content: start;
   padding-left: 1px;
-}
-
-.responsibility {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -207,7 +205,7 @@ nav {
   position: static;
   width: 236px;
   height: 32px;
-  left: 0px;
+  left: 1px;
   top: 48px;
   font-family: 'Poppins', sans-serif;
   color: #7a869a;
@@ -218,14 +216,14 @@ nav {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .projectInfo {
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
+  left: 1px;
   top: 92px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -233,7 +231,7 @@ nav {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .language {
@@ -303,7 +301,7 @@ nav {
   padding: 4px 10px;
   height: 24px;
   left: 114px;
-  top: 0px;
+  top: 1px;
   background: #ebebff;
   border-radius: 8px;
   flex: none;
