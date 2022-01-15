@@ -1,5 +1,6 @@
 body {
   margin: 0%;
+  
 }
 
 header {
@@ -300,12 +301,13 @@ nav {
   border-radius: 8px;
   flex: none;
   flex-grow: 0;
+  order: 2;
 }
 
 /* About Me section */
 
 .seeProject {
-  width: fit-content;
+  width: 124px;
   height: 48px;
   background: #fff;
   color: #396df2;
@@ -313,7 +315,7 @@ nav {
   border-radius: 10px;
   font-size: 17px;
   margin-left: 1px;
-  margin-top: 1em;
+  margin-top: 4px;
   padding: 1px 10px;
 }
 
