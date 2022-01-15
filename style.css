@@ -262,7 +262,7 @@ nav {
   margin: 12px 1px;
 } 
 
-.tags button {
+.languageC button {
   background: #ebebff;
   color: #6070ff;
   border: none;
@@ -281,6 +281,7 @@ nav {
   border-color: #396df2;
   border-radius: 10px;
   font-size: 17px;
+  margin: 5px 0 10px 0;
 }
 
 #seeProject {
