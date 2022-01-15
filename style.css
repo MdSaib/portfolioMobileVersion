@@ -117,9 +117,34 @@ nav {
   height: 20px;
   order: 3;
   margin-top: 32px;
-  margin-right: 1.6em;
+  margin-right: 2.5em;
   list-style: none;
   padding-left: 1px;
+}
+
+.github {
+  width: 24px;
+  height: 24px;
+}
+
+.linkedin {
+  width: 24px;
+  height: 24px;
+}
+
+.finger {
+  width: 24px;
+  height: 24px;
+}
+
+.twitter {
+  width: 24px;
+  height: 24px;
+}
+
+.medium {
+  width: 24px;
+  height: 24px;
 }
 
 .work {
@@ -320,12 +345,14 @@ nav {
 }
 
 #seeProject {
-  margin-top: 1px;
+  width: fit-content;
+  margin-top: 10px;
   margin-left: 4.1em;
 }
 
 .skills {
   list-style: none;
+  margin-top: 1.4em;
 }
 
 .skills ul {
@@ -334,6 +361,10 @@ nav {
   align-items: center;
   list-style: none;
   font-family: 'Poppins', sans-serif;
+}
+
+.languageB {
+  margin-left: -0.5em;
 }
 
 .languageB ul {
