@@ -247,20 +247,15 @@ nav {
   top: 180px;
   flex: none;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
   list-style: none;
-  position: static;
-  width: 65px;
-  height: 16px;
-  left: 12px;
-  top: 4px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .language1 {
@@ -291,7 +286,6 @@ nav {
   flex: none;
   order: 1;
   flex-grow: 0;
-  order: 0;
 }
 
 .language3 {
@@ -322,6 +316,7 @@ nav {
   margin-top: 1em;
   padding: 1px 10px;
 }
+
 #seeProject {
   margin-top: 1px;
   margin-left: 4.1em;
@@ -346,6 +341,7 @@ nav {
   color: #253858;
   font-family: 'Poppins', sans-serif;
 }
+
 .languageB ul li {
   display: flex;
   align-items: center;
