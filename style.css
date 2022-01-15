@@ -153,6 +153,7 @@ nav {
   grid-template-columns: 100%;
   grid-template-rows: 25% 25% 25% 25%;
   grid-row-gap: 1px;
+  margin: auto;
 }
 
 .work1 {
@@ -188,7 +189,7 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 88px 1px;
+  margin: 88px 25px;
 }
 
 .portfolioA {
@@ -201,7 +202,7 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 1px;
+  margin: auto;
 }
 
 .projectTitle {
@@ -259,90 +260,27 @@ nav {
   line-height: 24px;
   color: #344563;
   margin: 12px 1px;
-}
+} 
 
-.language {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 1px;
-  gap: 1em;
-  position: static;
-  width: 203px;
-  height: 24px;
-  left: 1px;
-  top: 180px;
-  flex: none;
-  flex-grow: 0;
-  margin: 12px 1px;
-  list-style: none;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+.tags button {
+  background: #ebebff;
   color: #6070ff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 20px;
 }
-
-.language1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 10px;
-  height: 24px;
-  left: 1px;
-  top: 1px;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.language2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 10px;
-  height: 24px;
-  left: 61px;
-  top: 1px;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.language3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 10px;
-  height: 24px;
-  left: 114px;
-  top: 1px;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  flex-grow: 0;
-  order: 2;
-}
-
 /* About Me section */
 
 .seeProject {
-  width: 124px;
   height: 48px;
+  width: 124px;
+  padding: 12px;
   background: #fff;
   color: #396df2;
   border-color: #396df2;
   border-radius: 10px;
   font-size: 17px;
-  margin-left: 1px;
-  margin-top: 4px;
-  padding: 1px 10px;
 }
 
 #seeProject {
