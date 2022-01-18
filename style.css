@@ -4,9 +4,9 @@ body {
   margin: 0;
   background-color: #f7f7f9;
 }
- main {
-   height: auto;
- }
+main {
+  height: auto;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@ header {
   height: 20px;
   /* left: 12px;
   top: 10px; */
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -66,7 +66,7 @@ nav {
   height: 150px;
   left: 24px;
   top: 114px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -86,7 +86,7 @@ nav {
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,7 +104,7 @@ nav {
   height: 4px;
   left: 1px;
   top: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -215,7 +215,7 @@ nav {
   height: 36px;
   left: 1px;
   top: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -239,7 +239,7 @@ nav {
   height: 32px;
   left: 1px;
   top: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #7a869a;
   font-style: normal;
   font-weight: 600;
@@ -257,7 +257,7 @@ nav {
   height: 76px;
   left: 1px;
   top: 92px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -305,7 +305,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .languageB {
@@ -317,7 +317,7 @@ nav {
   list-style: none;
   padding-bottom: 5px;
   color: #253858;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .languageB ul li {
@@ -328,7 +328,7 @@ nav {
   background-color: #f7f7f9;
   margin: 10px;
   border-radius: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .headlineA {
@@ -346,7 +346,7 @@ nav {
   height: 150px;
   left: 24px;
   top: 114px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -366,7 +366,7 @@ nav {
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -389,7 +389,7 @@ nav {
   height: 4px;
   left: 1px;
   top: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -412,7 +412,7 @@ button:active {
 
 .client {
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #344563;
 }
 
@@ -424,7 +424,13 @@ button:active {
 }
 
 footer {
-  width: 100%;
-  background-color: #172b4d;
-  margin: auto;
+  width: 375px;
+  background-color: #6070ff;
+  margin: 0 auto 0;
+  border-radius: 15% 0 0 0;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
 }
