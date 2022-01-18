@@ -221,15 +221,14 @@
   <ul>
     <li>
       <label for="name"></label>
-      <input type="text" placeholder="Yeremias" id="name">
+      <input type="text" placeholder="Yeremias" id="name" maxlength="30" required>
     </li>
     <label for="mail"></label>
-      <input type="email" id="mail" placeholder="natajayanj14@gmail.com">
+      <input type="email" id="mail" placeholder="natajayanj14@gmail.com" required>
     </li>
-    <label for="message"></label>
-    <textarea name="" id="message" cols="30" rows="10">
-      Write your message here
-    </textarea>
+    <li>
+      <label for="message"></label>
+      <textarea name="user_msg" id="message" maxlength="500" placeholder="Write your message here" required></textarea>
     <li>
       <Button type="submit">Get It Touch</Button>
     </li>
