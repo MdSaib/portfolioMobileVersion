@@ -537,7 +537,7 @@ input {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    width: 1440px;
+    width: 100%;
   }
 
   .homePage {
@@ -552,7 +552,6 @@ input {
     margin: 0;
     overflow: hidden;
     width: 80%;
-    /* width: 100%; */
   }
   
   header {
@@ -588,18 +587,14 @@ input {
   
   
   .homebody {
-    height: 935px;
+    height: 746px;
     width: 100%;
-    /* border: solid; */
     background-image: url("icon/HeaderShapesD.svg");
-    /* background-position: top -100px right 0; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* min-width: 1397px; */
   }
   
   .text1D {
-  
   display: flex;
   align-items: center;
   letter-spacing: 0.0001em;
@@ -611,6 +606,7 @@ input {
     color: #091E42;
     margin-bottom: -50px;
     margin-top: 90px;
+    padding-top: 150px;
     
   }
   
