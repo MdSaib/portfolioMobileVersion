@@ -8,13 +8,27 @@
   <title>2ndportfolio</title>
 </head>
 <body>
-<main class="container">
+<div class="containeR">
+  <div class="homePage">
 
 <header class="portHeader">
   <a href="#" class="msLogo"> M S</a>
   <nav id="menuBar" onclick="toggle()">
     <img id="union" src="icon/union.svg" alt="menu">
   </nav>
+
+  <div class="container">
+    <div id="logo">
+      <h1>M S</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <section class="homebody">
@@ -22,11 +36,21 @@
     <div class="text1">
       <h2>I’m Md Saib Glad to see you!</h2>
     </div>
+
+    <div class="text1D">
+      <h2>I'm Md Saib<br>Glad to see you!</h2>
+    </div>
     
     <p id="text2">
       I’m a software developer! I can help you build a product , feature or website
       Look through some of my work and experience! If you like what you see and 
       have a project you need coded, don’t hestiate to contact me.
+    </p>
+
+    <p id="text2D">
+      I'm a software developer! I can help you build a product , feature or website
+      Look through <br> some of my work and experience! If you like what you see and 
+      have a project you need <br> coded, don’t hestiate to contact me.
     </p>
         
     <a class="text3" href="#">LET’S CONNECT</a>
@@ -43,6 +67,8 @@
 
   </article>
 </section>
+</div>
+<br><br><br><br>
  
   <!--Work Section Start -->
 <section class="work">
@@ -151,6 +177,123 @@
   </section>
 </section>
 
+<!--desktop version of Work secttion-->
+
+<section class="workD">
+  <section class="workA work1">
+    <aside class="portfolioA">
+      <a onclick="toggle()" href="#"><img src="image/portfolio1D.png" alt="portfolio1"></a>
+    </aside>
+
+    <article>
+      <h1 class="projectTitle">Tonic</h1>
+      <ul class="responsibility">
+        <li class="client">CANOPY</li>
+        <li>Back End Dev</li>
+        <li>2015</li>
+      </ul>
+      <p class="projectInfo">
+        A daily selection of privately personalized reads; no accounts <br> or
+        sign-ups required.
+      </p>
+      <div class="languageC">
+        <button type="button">html</button>
+        <button type="button">CSS</button>
+        <button type="button">javaScript</button>
+      </div>
+      <button type="button" class="seeProject">See Project</button>
+
+    </article>
+  </section>
+
+  <section class="workA work2">
+
+
+    <article>
+      <h1 class="projectTitle">Multi-Post Stories</h1>
+      <ul class="responsibility">
+        <li class="client">FACEBOOK</li>
+        <li class="job">Full Stack Dev</li>
+        <li class="year">2015</li>
+      </ul>
+      <p class="projectInfo">
+        Experimental content creation feature that allows users to<br> add to an existing
+        story over the course of a day without<br> spamming their friends.
+      </p>
+      <div class="languageC">
+        <button type="button">HTML</button>
+        <button type="button">Ruby on rails</button>
+        <button type="button">CSS</button>
+        <button type="button">javaScript</button>
+     </div>
+      <button type="button" class="seeProject">See Project</button>
+
+    </article>
+
+    <aside class="portfolioA">
+      <a onclick="toggle()" href="#"><img src="image/portfolio2D.png" alt="portfolio4"></a>
+    </aside>
+  </section>
+
+  <section class="workA work3">
+    <aside class="portfolioA">
+      <a onclick="toggle()" href="#"><img src="image/portfolio3D.png" alt="portfolio3"></a>
+    </aside>
+
+    <article>
+      <h1 class="projectTitle">Tonic</h1>
+      <ul class="responsibility">
+        <li class="client">FACEBOOK</li>
+        <li>Full Stack Dev</li>
+        <li>2015</li>
+      </ul>
+      <p class="projectInfo">
+        Exploring the future of media in Facebook's first Virtual Reality<br> app; a
+         place to discover and enjoy 360 photos and videos on<br> Gear VR.
+      </p>
+      <div class="languageC">
+        <button type="button">HTML</button>
+        <button type="button">Ruby on rails</button>
+        <button type="button">CSS</button>
+        <button type="button">javaScript</button>
+     </div>
+      <button type="button" class="seeProject">See Project</button>
+
+    </article>
+  </section>
+
+  <section class="workA work4">
+
+
+    <article>
+      <h1 class="projectTitle">Uber Navigation</h1>
+      <ul class="responsibility">
+        <li class="client">Uber</li>
+        <li>Lead Developer</li>
+        <li>2018</li>
+      </ul>
+      <p class="projectInfo">
+        A smart assistant to make driving more safe, efficient, and fun <br> by unlocking
+         your most expensive computer: your car.
+      </p>
+      <div class="languageC">
+        <button type="button">HTML</button>
+        <button type="button">Ruby on rails</button>
+        <button type="button">CSS</button>
+        <button type="button">javaScript</button>
+     </div>
+      <button type="button" class="seeProject">See Project</button>
+
+    </article>
+
+    <aside class="portfolioA">
+      <a onclick="toggle()" href="#"><img src="image/portfolio4D.png" alt="portfolio4"></a>
+    </aside> 
+</section>
+</section>
+
+<!--about me-->
+
   <article class="headlineA">
     <div class="text1A">
       <h1>About Myself</h1>
@@ -211,9 +354,74 @@
 </section>
 </article>
 
-</main>
+<!--about me desktop version-->
 
-<footer>
+<article class="headlineAD">
+
+  <div class="leftSide">
+    <div class="text1A">
+      <h1>About Myself</h1>
+    </div>
+    
+    <p id="text2AD">
+      Hello I’m a software developer! I can help you build a<br> product , feature or
+       website Look through some of my<br> work and experience! If you like what you
+        see and have <br> a project you need coded, don’t hestiate to contact me..
+    </p>
+        
+    <a class="text3A" href="#">LET’S CONNECT</a>
+
+    <div >
+      <ul id="social-icon" class="social-icon">
+        <li><a href="#"><img class="github" src="icon/github.svg" alt="github"></a></li>
+        <li><a href="#"><img class="linkedin" src="icon/linkedin.svg" alt="linkedin"></a></li>
+        <li><a href="#"><img class="finger" src="icon/finger.svg" alt="finger"></a></li>
+        <li><a href="#"><img class="twitter" src="icon/twitter.svg" alt="twitter"></a></li>
+        <li><a href="#"><img class="medium" src="icon/medium.svg" alt="medium"></a></li>
+      </ul>      
+    </div>
+
+    <button id="seeProjectD" class="seeProject">Get My Resume</button>
+</div>
+
+<div class="rightSide">
+      <ul class="skills">
+        <li class="langguages">
+          <ul>
+              <li> <h3>Langguages</h3></li>
+              <li><img src="icon/bottomArrow.svg" alt="bottomArrow"></li>
+          </ul>
+        </li>
+    <li class="languageB">
+        <ul>
+         <li><img src="icon/javascript.svg" alt="js"> JavaScript </li>
+         <li><img src="icon/html.svg" alt="html"> Html </li>
+         <li><img src="icon/css.svg" alt="css"> Css </li>
+        </ul>
+  
+    </li>
+    <li>
+    <ul>
+        <li><h3>Frameworks</h3></li>
+        <li><img src="icon/rightArrow.svg" alt="right-icon"></li>
+    </ul>
+  
+    <img src="icon/separatorBottom.svg" alt="h-line">
+  </li>
+  <li>
+    <ul>
+        <li> <h3>Skills</h3></li>
+        <li><img src="icon/rightArrow.svg" alt="rightArrow"></li>
+    </ul>
+    <img src="icon/separatorBottom.svg" alt="separatorBottom">
+  </li>
+  </ul>
+</div>
+</article>
+
+</div>
+
+<footer class="footer">
   <h2>Contact me</h2>
   <p>If you have an application you are interested in developing, a feature that
      you need built or a project that needs coding. I’d love to help with it </p>
@@ -232,5 +440,27 @@
   
 </footer>
 
+<!--footer desktop version-->
+
+<footer class="footerD">
+  <div class="contactMe">
+  <h2>Contact me</h2>
+  <p>If you have an application you are interested in<br> developing, a feature that
+     you need built or a project<br> that needs coding. I’d love to help with it </p>
+  <form action="https://formspree.io/f/mrgjeaba" method="post">
+  
+      <label for="name"></label>
+      <input type="text" placeholder="Yeremias" id="nameD" maxlength="30" required>
+
+    <label for="mail"></label>
+      <input type="email" id="mailD" placeholder="natajayanj14@gmail.com" required>
+  
+      <label for="message"></label>
+      <textarea name="user_msg" id="messageD" maxlength="500" placeholder=
+      "Write your message here" required></textarea>
+      <button type="submit">Get It Touch</button>
+    </form>
+  </div>
+</footer>
 </body>
 </html>
