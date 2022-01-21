@@ -1,5 +1,5 @@
 @media all and (max-width: 992px)
- {
+  {
   .container { display: none; }
   .text1D { display: none; }
   #text2D { display: none; }
@@ -619,7 +619,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     text-decoration: none;
   }
 
