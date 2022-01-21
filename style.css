@@ -588,13 +588,13 @@ input {
   
   
   .homebody {
-    height: 721.46px;
+    height: 935px;
     width: 100%;
     /* border: solid; */
     background-image: url("icon/HeaderShapesD.svg");
     /* background-position: top -100px right 0; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     /* min-width: 1397px; */
   }
   
@@ -603,13 +603,14 @@ input {
   display: flex;
   align-items: center;
   letter-spacing: 0.0001em;
-    /* margin-top: 200px; */
     margin-left: 260px;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 100px;
     color: #091E42;
+    margin-bottom: -50px;
+    margin-top: 90px;
     
   }
   
@@ -887,7 +888,8 @@ input {
   }
   
   .rightSide {
-    padding: 5em 0 0 0;;
+    padding: 5em 0 0 0;
+    margin-left: -70px;
   }
   
   .text1A {
