@@ -1,5 +1,4 @@
-@media all and (max-width: 992px) 
-  {
+@media all and (max-width: 992px) {
   .container { display: none; }
   .text1D { display: none; }
   #text2D { display: none; }
