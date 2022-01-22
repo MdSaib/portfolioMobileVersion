@@ -1071,7 +1071,7 @@
   height: 33%;
   background-color: #333;
   float: left;
-  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  -webkit-animation: sk-cubegridscaledelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
 }
 
@@ -1104,6 +1104,7 @@
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
+
 .sk-cube-grid .sk-cube7 {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
@@ -1126,10 +1127,10 @@
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-  
+
   35% {
     -webkit-transform: scale3d(0, 0, 1);
-    transform: scale3D(0, 0, 1);
+    transform: scale3d(0, 0, 1);
   }
 }
 
@@ -1138,11 +1139,11 @@
   70%,
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 
   35% {
     -webkit-transform: scale3d(0, 0, 1);
-            transform: scale3d(0, 0, 1);
+    transform: scale3d(0, 0, 1);
   }
 }
