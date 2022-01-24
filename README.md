@@ -8,6 +8,10 @@
 
 - html, css
 
+## Live Demo
+
+https://mdsaib.github.io/portfolioMobileVersion/
+
 
 ### Prerequisites
 - basic knowledge of html, css
