@@ -148,7 +148,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 2px;
-    color: #7f8cff;
+    color: #303560;
     text-decoration: none;
   }
 
@@ -439,7 +439,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 2px;
-    color: #7f8cff;
+    color: #292d52;
     text-decoration: none;
   }
 
@@ -491,7 +491,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #f3f4f4;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -505,7 +505,7 @@
     margin-left: 22px;
     margin-right: 22px;
     font-family: 'Poppins', sans-serif;
-    color: #ebebff;
+    color: #000040;
   }
 
   textarea {
@@ -612,7 +612,7 @@
     font-style: normal;
     margin-top: 103px;
     margin-bottom: 0;
-    color: #fff;
+    color: #000040;
   }
 
   .text1D {
@@ -650,7 +650,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #404680;
     text-decoration: none;
   }
 
@@ -952,7 +952,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 2px;
-    color: #7f8cff;
+    color: #404680;
     text-decoration: none;
   }
 
@@ -1024,14 +1024,14 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    color: #ebebff;
+    color: #000040;
     width: 569px;
     text-align: center;
   }
 
   textarea {
     border: 0;
-    color: #b3bac5;
+    color: #59595a;
     min-height: 170px;
     margin-top: 20px;
     padding-left: 16px;
