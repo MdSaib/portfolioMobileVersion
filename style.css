@@ -72,9 +72,49 @@
     }
   }
 
-  nav {
+  #nav {
+    display: none;
     margin-right: 30px;
-    margin-top: 30px;
+    position: absolute;
+    
+    height: 812px;
+  width: 100%;
+  background: #6070ff;
+  }
+
+
+    #nav ul {
+      list-style: none;
+      padding-top: 6em;
+      line-height: 4em;
+      padding-left: 2em;
+      
+
+    }
+    .subMenu {
+      color: white;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 44px;
+      margin-top: 33px;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;  
+      
+    }
+
+    .hamburger {
+      display: flex;
+      align-self: flex-start;
+      height: 30px;
+      margin-top: 20px;
+      border: none;
+      background: none;
+    }
+
+    .closeIcon {
+   
+      color: snow;
+      display: non;
   }
 
   .homebody {
